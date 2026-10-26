@@ -1,0 +1,20 @@
+MIJN BUDGET 1.1.1 — OFFLINE WEBAPP
+
+Deze ZIP bevat een zelfstandig werkende PWA met transacties, categorieën,
+teruggaven, maandsaldo, jaaroverzicht, maandelijks terugkerende transacties,
+zoeken/filteren, JSON-back-up/import en CSV-export.
+
+BELANGRIJK:
+- Voor installeren op Android moet de map één keer via HTTPS worden aangeboden.
+  Een ZIP of file://-pagina alleen kan niet als betrouwbare offline PWA worden geïnstalleerd.
+- Na eerste online bezoek en installatie worden de appbestanden lokaal gecachet;
+  de app werkt dan zonder internet. Controleer dit met vliegtuigmodus.
+- De gegevens blijven lokaal in IndexedDB van deze PWA. Ze worden NIET
+  automatisch overgenomen uit een eerdere APK of een andere webapp.
+- Exporteer eerst je oude gegevens naar JSON. Importeer ze alleen als het
+  bestandsformaat overeenkomt; test de import vóór het verwijderen van oude app.
+- Dit is een nieuw opgebouwde versie op basis van de bekende functies;
+  geen byte-identieke kopie van de eerdere broncode.
+
+Een simpele HTTPS-host zoals GitHub Pages kan de bestanden statisch aanbieden.
+Er is geen serverdatabase, login of cloudopslag nodig.
